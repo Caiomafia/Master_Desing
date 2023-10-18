@@ -1,0 +1,153 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        padding: 16rem 0;
+    }
+    
+    .section header {
+        max-width: 52.3rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+        height: 5rem;
+    }
+
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+
+    }
+
+    nav .menu ul {
+        display: flex;
+        gap: 3.2rem;
+    }
+
+    nav .menu ul li a.title {
+        font: 400 1.6rem var(--body-font);
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    nav .menu ul li a.title.active {
+        font-weight: bold;
+        -webkit-font-smoothing: auto;
+    }
+
+    nav .icon-menu {
+        display: none;
+    }
+    
+    main {
+        margin-top: var(--header-height);
+    }
+
+    #home .container {
+        grid-auto-flow: column;
+        margin: 0 auto; 
+    }
+
+    #home .image {
+        order: 1;
+    }
+    
+    #home .image::before {
+        right: -2.7%;
+    }
+    
+    #home .text {
+        order: 0;
+        max-width: 43rem;
+        text-align: left;
+    }
+    
+    #highlights .container {
+        grid-auto-flow: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #highlights .image::before {
+        left: -10%;
+    }
+    
+    #contact .container {
+        grid-auto-flow: column;
+        align-items: center;
+    }
+
+    #contact .text {
+        max-width: 32rem;
+    }
+
+    footer .container {
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer.section {
+        padding: 6rem 0;
+    }
+
+    footer .logo {
+        font-size: 3rem;
+    }
+
+    /* Team */
+
+    #team .cards.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Highlights */
+
+    #highlights .container.grid {
+        grid-auto-flow: unset;
+    }
+
+    #highlights .container .text {
+        text-align: center;
+    }
+
+    #highlights .container .text p {
+        max-width: 52.3rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #highlights .gallery {
+        grid-template-areas: "image1 image2 image3 image6"
+                             "image5 image2 image4 image6"
+                             ;
+    }
+    
+    #highlights .gallery .image.a4 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    html{
+        --title-font-size: 3.6rem;
+        --subtitle-font-size: 1.8rem;
+    }
+
+}
