@@ -554,6 +554,11 @@ footer .social a:hover {
     transform: translateY(-15px);
 }
 
+
+
+
+.brand a { color: rgb(181, 208, 248);}
+
 /* Back to Top */
 
 .back-to-top {

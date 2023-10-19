@@ -154,3 +154,12 @@
 
 
 .title{text-align: center;}
+
+@media(max-width:450px){
+    .brand , .text{
+        text-align: center;
+    }
+    .social{
+       margin: auto;
+    }
+}
