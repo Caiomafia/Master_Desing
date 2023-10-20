@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
     .container {
         max-width: 1120px;
         margin-left: auto;
@@ -67,7 +67,7 @@
     #home .text {
         order: 0;
         max-width: 43rem;
-        text-align: left;
+      text-align: center;
     }
     
     #highlights .container {
@@ -142,24 +142,36 @@
         width: 100%;
     }
 
+     
 }
 
-@media (min-width: 992px) {
-    html{
-        --title-font-size: 3.6rem;
-        --subtitle-font-size: 1.8rem;
-    }
+
+
+
+
+  
 
 }
 
 
 .title{text-align: center;}
 
-@media(max-width:450px){
+@media(max-width:695px){
     .brand , .text{
         text-align: center;
     }
     .social{
        margin: auto;
     }
+
+    .container {text-align: center;}
+
+    .cards {margin: auto;}
+    
+#home .image {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
 }
