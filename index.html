@@ -1,254 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barber House</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="images/fonts/style.css">
-    <link rel="stylesheet" href="style/style.css">
+    <title>Desing</title>
+    <link rel="stylesheet" href="assents/styles/main.css">
+    <link rel="stylesheet" href="assents/styles/responsivo.css">
 
-   <link rel="stylesheet" href="style/responsivo.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="assents/js/main.js"></script>
 </head>
 <body>
-
-    <header id="header">
-        <nav class="container">
-            <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
-            <div class="menu">
-                <ul class="grid">
-                    <li><a href="#home" class="title">Home</a></li>
-                    <li><a href="#services" class="title">Serviços</a></li>
-                    <li><a href="#team" class="title">Equipe</a></li>
-                    <li><a href="#contact" class="title">Contato</a></li>
-                </ul>
+    
+<header>
+    <nav class="navbar">
+        <div class="text-menu">
+            <h2>OFERTA DISPONÍVEL ATÉ:</h2>
+        </div>
+        <div class="oferta">
+            <div class="hours" id="number">
+                <h3>00</h3>
+                <h3>Dias</h3>
             </div>
-            <div class="toggle icon-menu"></div>
-            <div class="toggle icon-close"></div>
-        </nav>
-    </header>
-
-    <main>
-
-        <section class="section" id="home">
-            <div class="container grid">
-                <div class="image">
-                    <img src="images/home.svg"
-                    alt="Mulher sorrindo penteando outra mulher"/>
-                </div>
-                <div class="text">
-                    <h2 class="title">Bem-vindo a <br> <span>Barber House</span></h2>
-                    <p>Renovamento a autoestima masculina .</p>
-                    <a href="https://calendly.com/barbermatheus/salaodebeleza" class="button">Agendar Horário </a>
-                </div>
+            <div class="minutes"id="number">
+                <h3>00</h3>
+                <h3>Min</h3>
             </div>
-        </section>
-
-        <div class="divider-1"></div>
-
-        <section class="section" id="services">
-            <div class="container grid">
-                <header>
-                    <h2 class="title">Nossos <span>Serviços</span></h2>
-                    <p class="subtitle">Wi-Fi grátis.  Bebidas Geladas.  Ar condicionado.  TV .  Atendimento por agendamento.  Cabelo/ Degradê/ Fade/ Social.  Barba/ lenhador / moderna/ clássica.  Sobrancelha/ Navalha / Pinça.  Pigmentação/ Cabelo / Barba.  Limpeza de pele completa.".</p>
-                </header>
-                <div class="cards grid">
-                    <div class="card">
-                        <i class="icon-as"></i>
-                        <h3 class="title">Tratamento de Barba</h3>
-                        <p>O Tratamento para Barba deixará sua barba macia e rejuvenescida. Este serviço relaxante começa com uma toalha quente.</p>
-                    </div>
-                    <div class="card">
-                        <i class="icon-Group-1"></i>
-                        <h3 class="title">Estilo de Cabelo</h3>
-                        <p>Um corte de cabelo digno de um rei. Realizado pelo nosso Master Barber habilmente treinado. Além de mais do que apenas um ótimo corte de cabelo.</p>
-                    </div>
-                    <div class="card">
-                        <i class="icon-Group-2"></i>
-                        <h3 class="title">Coloração</h3>
-                        <p>Experimente o luxuoso ritual da coloração com nossos produtos. Esteja pronto para o carnaval ou alguma festa de adolescente..</p>
-                    </div>
-                </div>
+            <div class="seconds"id="number">
+                <h3>00</h3>
+                <h3>Seg</h3>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <div class="divider-2"></div>
-
-        <section class="section" id="team">
-            <div class="container grid">
-                <header>
-                    <h2 class="title">Conheça nosso  <span>Time</span></h2>
-                    <p class="subtitle">Os barbeiros em quem você deve confiar seu cabelo . Você pode nos conhecer há anos ou talvez seja apenas um rosto novo.</p>
-                </header>
-                <div class="cards grid">
-                    <div class="card">
-                        <img src="images/team/kristin-watson0.jpg" alt="">
-                        <div class="text">
-                            <h3 class="title"> <a href="">Kristin Watson</a></h3>
-                        </div>   
-                    </div>
-                    <div class="card">
-                        <img src="images/team/courtney-henry.jpg" alt="">
-                        <div class="text">
-                            <h3 class="title">Courtney Henry</h3>
-                        </div>   
-                    </div>
-                    <div class="card">
-                        <img src="images/team/wade-warren.jpg" alt="">
-                        <div class="text">
-                            <h3 class="title">Wade Warren</h3>
-                           
-                        </div>   
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-1"></div>
-
-        <section class="section" id="highlights">
-            <div class="container grid">
-                <div class="text">
-                    <h2 class="title"> Galeria do nosso <span>Destaque</span></h2>
-                    <p>Nossa equipe de estrelas está pronta para surpreender com novos cortes de cabelo incríveis. Com um toque de Brooklyn, alma e um pouco de jazz, você vai adorar..</p>
-                </div>
-                <div class="gallery">
-                    <div class="image a1"><img src="images/gallery/1.jpg" alt=""></div>
-                    <div class="image a3"><img src="images/gallery/4.jpg" alt=""></div>
-                    <div class="image a2"><img src="images/gallery/3.jpg" alt=""></div>
-                    <div class="image a4"><img src="images/gallery/5.jpg" alt=""></div>
-                    <div class="image a5"><img src="https://i.pinimg.com/1200x/d8/c3/37/d8c337c7ac587d8f0a06dcdd6dbc0fac.jpg" alt=""></div>
-                    <div class="image a6"><img src="https://i.ytimg.com/vi/uhTY-0pJkQQ/maxresdefault.jpg" alt=""></div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-2"></div>
-
-        <section class="section reviews" id="testimonials">
-            <div class="container">
-                <header>
-                    <h2 class="title">Avaliações dos <span>Clientes</h2>
-                </header>
-                <div class="testimonials swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="testiomonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                   
-                                    Excelente atendimento. Serviço de qualidade
-                                </p>
-                                <div class="rate">
-                                    <cite>
-                                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt=""/>
-                                        Bob Hairless
-                                    </cite>
-                                    <div class="actions">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                    </div>
-                                </div>
-                            </blockquote>
-                        </div>
-
-                        <div class="testiomonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                    Um bom amigo e a rapaz muito dedicado ao que faz muito profissional e um excelente ambiente. Vou dar cinco estrela🌟 
-                                </p>
-                                <div class="rate">
-                                    <cite>
-                                        <img src="https://randomuser.me/api/portraits/men/82.jpg" alt=""/>
-                                       Carlos
-                                    </cite>
-                                    <div class="actions">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                    </div>
-                            </blockquote>
-                        </div>
-
-                        <div class="testiomonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                    O único no qual eu confio para cortar meu cabelo e desenhar minha barba! Excelente profissional!👏👏
-                                </p>
-                                <div class="rate">
-                                    <cite>
-                                        <img src="https://randomuser.me/api/portraits/men/83.jpg" alt=""/>
-                                       Kayque
-                                    </cite>
-                                    <div class="actions">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                        <img src="images/star.svg" alt="">
-                                    </div>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-2"></div>
-
-        <section class="section" id="contact">
-            <div class="container grid">
+    <section class="home">
+        <div class="text-home">
+            <img src="assents/images/logo.jpg" alt="logo" width="100px">
+            <h2>As ferramentas que farão
+                você ser um designer
+                organizado, profissional e
+                com mais autoridade</h2>
+                <p>Documentos 100% editáveis e fáceis de editar, <span> 
+                    mesmo que você seja iniciante.
+                </span></p>
+                <button class="btn-compra"> COMPRAR AGORA</button>
                 
-                <div class="text">
-                    <h2 class="title">Entre em contato com a equipe!</h2>
-                    <p>Entre em contato com a Barber House. Queremos ajudá-lo a obter um novo estilo.</p>
-                    <a href="https://api.whatsapp.com/send?phone=+5511998456754&text=Olá! Gostaria de agendar um horário!" 
-                    class="button" target="_blank"><i class="icon-whatsapp"></i>Envie uma mensagem</a>
-                </div>
-                <div class="links">
-                    <ul class="grid">
-                        <li><i class="icon-phone"></i> (61) 99487-8654</li>
-                        <li><i class="icon-map-pin"></i>BSB</li>
-                        <li><i class="icon-mail"></i>contact@barberhouse.com</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                 
+        </div>
+        <div class="image-home">
+         <img src="" alt="">
+        </div>
+    </section>
 
-        <div class="divider-1"></div>
 
-        </main>
-        <footer class="section">
-            <div class="container grid">
-                <div class="brand">
-                    <a href="#" class="logo"><img src="images/logo2.svg" alt=""></a>
-                    <p>©2023 Barber House</p>
-                    <p>Desenvolvido   <a href="">@Caio Mafra</a></p>
-                </div>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/rhuanbello/" target="_blank"><i class="icon-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rhuanbello/" target="_blank"><i class="icon-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/rhuanbello/" target="_blank"><i class="icon-youtube"></i></a>
-                </div>
-            </div>
-        </footer>
 
-        <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/main.js"></script>
+</header>
+
+
+
+
+
 </body>
 </html>
