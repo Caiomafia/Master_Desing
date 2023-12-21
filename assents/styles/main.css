@@ -9,7 +9,9 @@
 
 :root{
     --font-family: 'Space Grotesk', sans-serif;
-    --white:white
+    --white:white;
+    --font-weight:700;
+    
 }
 
 
