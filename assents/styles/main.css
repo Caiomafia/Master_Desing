@@ -105,12 +105,14 @@ span{
 
 /* button */
 .btn-compra{
+    max-width: 450px;
     color: white;
     font-family: var(--font-family);
-    padding: 15px 175.9px 15px 176.1px;
+    padding: 15px 120px ;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-align: center;
 
     border-radius: 28px;
     background: linear-gradient(87deg, #103E9E 0%, #049DD9 33.33%, #103E9E 66.67%, #049DD9 100%);
