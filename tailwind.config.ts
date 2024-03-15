@@ -12,9 +12,6 @@ const config: Config = {
         'title-timer':['Space Grotesk' ,'sans-serif'],
         'timers':['Sora' ,'sans-serif']
       },
-      cccolcrockl, :{
-        :['#CA2659']
-      }
     },
   },
   plugins: [],
