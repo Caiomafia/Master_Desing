@@ -24,6 +24,12 @@ export default function Home() {
             
         
       </header>
+
+      <main>
+        <div className="home">
+          Venha conhecer todos os produtos que temos para oferecer 
+        </div>
+      </main>
     </main>
   );
 }
